@@ -3,6 +3,7 @@
 Markas sesi cloud Claude Code untuk tim AI Senator.
 
 ## Isi
+- `CLAUDE.md` — konteks tetap: profil, roadmap, dan aturan kerja AI Senator.
 - `.mcp.json` — Playwright MCP (browser otomatis). Pakai Chromium bawaan container cloud
   di `/opt/pw-browsers/chromium`, mode headless.
 
