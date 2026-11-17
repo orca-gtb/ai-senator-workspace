@@ -52,3 +52,13 @@ Aku cari partner kerja yang jujur, bukan validasi.
 - `.mcp.json` mengaktifkan Playwright MCP (browser headless, Chromium bawaan container cloud).
 - Container cloud itu sementara. Apa pun yang mau disimpan harus di-commit dan di-push.
 - Repo terkait: `orca-etsy` (Etsy POD), `orca-journal` (jurnal), `sang-kronika-studio`.
+
+## TARGET PINNED: Monetisasi YouTube "World History" (diperbarui 17 Nov 2026)
+
+- **Target:** YPP (monetisasi iklan) terbuka **paling lambat akhir Des 2026**.
+- **Audiens target:** RPM tertinggi, urutan US, UK, Eropa. Channel berbahasa Inggris, POV US/UK.
+- **Suara:** ElevenLabs (paket Starter). Narasi Inggris, satu suara tetap sebagai identitas channel.
+- **Angka dasar (ISI dari YouTube Studio, jangan ditebak):** subs = ?, jam tonton 12 bln = ?, views Shorts 90 hari = ?, porsi US/UK/EU = ?
+- **Syarat YPP (cek tab Earn di Studio, panduan pihak ketiga beda-beda):** 1.000 subs + 4.000 jam tonton long-form (12 bln) ATAU 10 jt views Shorts (90 hari). Tier 500 subs hanya fan funding. Ada laporan syarat naik mulai 1 Feb 2027 (belum terverifikasi).
+- **Risiko utama:** kebijakan "inauthentic content" (konten massal bertemplat). Tiap video wajib punya sudut analisis asli, format divariasikan, fakta bersumber.
+- Jangan turunkan target. Kalau angka dasar kurang, ubah taktik, bukan targetnya.
