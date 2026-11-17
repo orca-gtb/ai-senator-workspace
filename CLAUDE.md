@@ -58,7 +58,8 @@ Aku cari partner kerja yang jujur, bukan validasi.
 - **Target:** YPP (monetisasi iklan) terbuka **paling lambat akhir Des 2026**.
 - **Audiens target:** RPM tertinggi, urutan US, UK, Eropa. Channel berbahasa Inggris, POV US/UK.
 - **Suara:** ElevenLabs (paket Starter). Narasi Inggris, satu suara tetap sebagai identitas channel.
-- **Angka dasar (ISI dari YouTube Studio, jangan ditebak):** subs = ?, jam tonton 12 bln = ?, views Shorts 90 hari = ?, porsi US/UK/EU = ?
+- **Angka dasar (vidIQ/Studio, 17 Nov 2026):** channel @worldhistory_1wh, 13 video, 75 subs, 36.731 views total. Jam tonton 12 bln ≈ 97,5 jam (semua format, long-form lebih sedikit). Views Shorts 90 hari = 5.763. Negara (14 negara terlihat, 2.304 views): ID 1.489, US 232, PH 200, DE 64, PL 57, GB 36. Lonjakan Okt–Nov: ±2.200 views/bulan, 6–7 subs/bulan.
+- **Jarak ke syarat (sisa 44 hari):** subs butuh ±925 (21/hari, sekarang ±0,3/hari); jam tonton butuh ±3.900 (±89 jam/hari, sekarang ±1,3/hari); jalur Shorts butuh 10 jt views/90 hari (sekarang 5.763).
 - **Syarat YPP (cek tab Earn di Studio, panduan pihak ketiga beda-beda):** 1.000 subs + 4.000 jam tonton long-form (12 bln) ATAU 10 jt views Shorts (90 hari). Tier 500 subs hanya fan funding. Ada laporan syarat naik mulai 1 Feb 2027 (belum terverifikasi).
 - **Risiko utama:** kebijakan "inauthentic content" (konten massal bertemplat). Tiap video wajib punya sudut analisis asli, format divariasikan, fakta bersumber.
 - Jangan turunkan target. Kalau angka dasar kurang, ubah taktik, bukan targetnya.
