@@ -141,9 +141,9 @@ def cmd_status(a):
     waiting = []
     for p in R["projects"]:
         g = " ".join(f"{k}{ {'pass': '✓', 'fail': '✗', 'pending': '·'}[v]}" for k, v in p["gates"].items())
-        print(f"{p['id']:18} {p['stage']:6} {g:34} {p['notes'][:60]}")
+        print(f"{p['id']:18} {p['stage']:6} {g:34} {'[HOLD] ' if p.get('hold') else ''}{p['notes'][:56]}")
         for k in ("QG0", "QG5"):
-            if p["gates"].get(k) == "pending" and (k == "QG0" or p["stage"] in ("S7", "S8")):
+            if not p.get("hold") and p["gates"].get(k) == "pending" and (k == "QG0" or p["stage"] in ("S7", "S8")):
                 waiting.append(f"{p['id']} menunggu {k} (Nanda)")
     print("Menunggu keputusan Nanda:" if waiting else "Tidak ada gerbang manusia yang menunggu.")
     for w in waiting:

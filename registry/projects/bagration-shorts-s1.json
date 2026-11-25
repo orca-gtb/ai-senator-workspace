@@ -1,0 +1,18 @@
+{
+ "id": "bagration-shorts-s1",
+ "property": "wh",
+ "title": "Operation Bagration: seri Shorts dari VO yang sudah ada",
+ "series": "bagration-shorts",
+ "stage": "S5",
+ "gates": {
+  "QG0": "pass"
+ },
+ "dates": {
+  "research_start": "2026-11-25",
+  "published": null
+ },
+ "credits_used": 0,
+ "revenue_idr": 0,
+ "cost_idr": null,
+ "notes": "Arahan Nanda 26 Nov 2026 (QG0 pass): Bagration versi Shorts memakai VO yang ada, tanpa kredit baru. Short 1 (s01, 51 dtk) dalam produksi; slate lengkap menunggu persetujuan."
+}
