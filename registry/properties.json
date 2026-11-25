@@ -1,0 +1,7 @@
+{
+ "properties": [
+  {"id": "wh", "name": "World History", "platform": "youtube", "handle": "@worldhistory_1wh", "lang": "en", "audience": "US/UK/EU", "studio": "ww-template", "priority": 1,
+   "baseline": {"date": "2026-11-17", "subs": 75, "views_total": 36731, "watch_hours_12m": 97.5, "shorts_views_90d": 5763, "source": "vidIQ/Studio"}},
+  {"id": "sk", "name": "Sang Kronika", "platform": "instagram", "handle": "sangkronika", "lang": "id", "audience": "ID", "studio": "sang-kronika-studio", "priority": 2, "baseline": null}
+ ]
+}

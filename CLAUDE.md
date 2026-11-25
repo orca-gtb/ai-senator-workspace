@@ -63,3 +63,15 @@ Aku cari partner kerja yang jujur, bukan validasi.
 - **Syarat YPP (cek tab Earn di Studio, panduan pihak ketiga beda-beda):** 1.000 subs + 4.000 jam tonton long-form (12 bln) ATAU 10 jt views Shorts (90 hari). Tier 500 subs hanya fan funding. Ada laporan syarat naik mulai 1 Feb 2027 (belum terverifikasi).
 - **Risiko utama:** kebijakan "inauthentic content" (konten massal bertemplat). Tiap video wajib punya sudut analisis asli, format divariasikan, fakta bersumber.
 - Jangan turunkan target. Kalau angka dasar kurang, ubah taktik, bukan targetnya.
+
+## Senator Media Works (SMW): infrastruktur media digital (disetujui 25 Nov 2026)
+
+Rancangan: `docs/architecture/MASTER-ARCHITECTURE.md`. Registry: `registry/`. CLI: `./senator validate|status|metrics|finance|new`.
+
+**Prinsip pemilik: BUILD TO PRODUCE, PRODUCE TO MONETIZE.**
+- Jangan bangun modul karena secara teknis bisa. Tiap modul wajib punya `need`, `evidence` (kejadian nyata), `kpi` di `registry/modules.json`; `./senator validate` menolak yang kosong.
+- Membangun SMW tidak boleh menunda publikasi World History yang sudah siap.
+- Hanya Nanda memutuskan QG0 Greenlight dan QG5 Publish. Tidak ada publish otomatis, tanpa akun duplikat, tanpa kuota jumlah video.
+- Ukuran evaluasi (bukan jumlah video): waktu riset-ke-publikasi, biaya produksi per konten, kredit AI terpakai, kelulusan gerbang, performa, pendapatan dan ROI. Data yang belum ada ditulis `n/a`, tidak ditebak.
+- Target finansial: surplus minimal Rp500.000/bulan setelah langganan ElevenLabs Creator ($22/bln; kurs 16.500 hanyalah asumsi). Jembatannya ada di `./senator finance`.
+- Agent: `.claude/agents/` (showrunner, production-planner, archivist). Pakai skill otomatis tanpa menunggu "/".

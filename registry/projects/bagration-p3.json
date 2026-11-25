@@ -1,0 +1,20 @@
+{
+ "id": "bagration-p3",
+ "property": "wh",
+ "title": "Operation Bagration, Part 3: The Cauldron (Minsk)",
+ "series": "bagration",
+ "part": 3,
+ "stage": "S0",
+ "gates": {
+  "QG0": "pending"
+ },
+ "dates": {
+  "research_start": null,
+  "published": null
+ },
+ "duration_s": null,
+ "credits_used": 0,
+ "revenue_idr": 0,
+ "cost_idr": null,
+ "notes": "Proyek uji nyata F0-F1. Menunggu QG0 dari Nanda. VO tertahan sampai kredit reset (~22 Des) atau paket Creator aktif."
+}

@@ -1,0 +1,25 @@
+{
+ "id": "bagration-p2",
+ "property": "wh",
+ "title": "Operation Bagration, Part 2: The Southern Jaw",
+ "series": "bagration",
+ "part": 2,
+ "stage": "S7",
+ "gates": {
+  "QG0": "pass",
+  "QG1": "pending",
+  "QG2": "pending",
+  "QG3": "pending",
+  "QG4": "pass",
+  "QG5": "pending"
+ },
+ "dates": {
+  "research_start": null,
+  "published": null
+ },
+ "duration_s": 494.5,
+ "credits_used": 1709,
+ "revenue_idr": 0,
+ "cost_idr": null,
+ "notes": "v3 8:14, -16.3 LUFS, VO median 20 dB di atas latar. Menunggu keputusan publish (QG5) dari Nanda. Credits_used = hanya VO Tier A."
+}

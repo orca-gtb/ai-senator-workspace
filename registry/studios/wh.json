@@ -1,0 +1,4 @@
+{"property": "wh", "repo": "ww-template", "engines": ["remotion", "mapkit", "diorama", "ffmpeg-mixer"], "formats": ["long-form 8-12 min", "short"],
+ "voice": {"provider": "elevenlabs", "model": "eleven_v4", "voice_id": "w2ZdKT3ghAOcMRbpjC3u", "takes_per_generate": 1},
+ "rules": ["no swastika/SS", "no real-person likeness", "facts sourced V/K/D/?", "AI-image stills never animated", "dip-to-black map<->image"],
+ "paths": {"projects": "src/conquer", "vo": "vo-*", "out": "out", "research": "research"}}
