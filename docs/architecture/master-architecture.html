@@ -149,6 +149,7 @@ td.c{text-align:center;font-family:var(--mono)}
 .ah{fill:var(--muted)}
 @media (max-width:980px){.lenses,.depts,.dash{grid-template-columns:repeat(2,minmax(0,1fr))}.phases{grid-template-columns:1fr 1fr}.tb{grid-template-columns:1fr 1fr}.tb>div:first-child{grid-column:span 2;grid-row:auto}.tb>div{border-top:1px solid var(--ink)}}
 @media (max-width:560px){.lenses,.depts,.dash,.phases{grid-template-columns:1fr}.tile.wide{grid-column:auto}.tb h1{font-size:34px}h2{font-size:24px}section.sheet{padding:16px}.lens-filter{margin-left:0}}
+@media print{nav.sec,body::before{display:none!important}body{background:#fff}.wrap{max-width:none;padding-inline:0}.scroll{overflow:visible}section.sheet{break-before:page;margin-top:0;border:0}section.sheet:first-of-type{break-before:auto}.tb{break-after:avoid}tr,.gl,.lens,.dept,.ph,.callout{break-inside:avoid}.pipe{min-width:0}svg{min-width:0!important}section.sheet{padding:14px 0;gap:12px}th,td{padding:5px 8px}.tb{margin-bottom:10px}#archSvg{max-height:640px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -158,10 +159,10 @@ td.c{text-align:center;font-family:var(--mono)}
       <span class="lbl">AI Senator · Media Division · Master Architecture</span>
       <h1>Senator Media Works</h1>
       <p class="sub">Infrastruktur produksi media digital dan content creator. Satu HQ memegang rencana, standar, registry, agent, dan dashboard; tiap brand media adalah studio yang tersambung lewat antarmuka standar.</p>
-      <span class="status">● DRAFT v0.1 · RANCANGAN, BELUM DIIMPLEMENTASI</span>
+      <span class="status">● v0.2 · DISETUJUI · F0 BERJALAN</span>
     </div>
     <div><span class="lbl">Dokumen</span><b>SMW-ARCH-001</b></div>
-    <div><span class="lbl">Revisi</span><b>0.1 · 25 Nov 2026</b></div>
+    <div><span class="lbl">Revisi</span><b>0.2 · 25 Nov 2026</b></div>
     <div><span class="lbl">Lingkup</span><b>Content &amp; social media saja</b></div>
     <div class="r2"><span class="lbl">Executive Producer</span><b>Nanda (Orca)</b></div>
     <div class="r2"><span class="lbl">Arsitek</span><b>Claude</b></div>
@@ -169,7 +170,7 @@ td.c{text-align:center;font-family:var(--mono)}
   </header>
 
   <nav class="sec" aria-label="Bagian">
-    <a href="#lenses">01 Lensa</a><a href="#architecture">02 Arsitektur</a><a href="#org">03 Organisasi</a><a href="#agents">04 Agent</a><a href="#pipeline">05 Pipeline</a><a href="#dataflow">06 Data flow</a><a href="#dashboard">07 Dashboard</a><a href="#modules">08 Modul</a><a href="#roadmap">09 Fase</a>
+    <a href="#lenses">01 Lensa</a><a href="#architecture">02 Arsitektur</a><a href="#org">03 Organisasi</a><a href="#agents">04 Agent</a><a href="#pipeline">05 Pipeline</a><a href="#dataflow">06 Data flow</a><a href="#dashboard">07 Dashboard</a><a href="#modules">08 Modul</a><a href="#principle">09 Prinsip &amp; metrik</a><a href="#roadmap">10 Fase</a>
     <div class="lens-filter" role="group" aria-label="Filter lensa">
       <button type="button" data-f="" aria-pressed="true">Semua</button>
       <button type="button" data-f="us" aria-pressed="false" class="c-us">AS</button>
@@ -244,12 +245,31 @@ td.c{text-align:center;font-family:var(--mono)}
     <div class="scroll"><table class="mx" id="mx"></table></div>
   </section>
 
+  <section class="sheet" id="principle">
+    <div class="sh-head"><div><span class="no">SHEET 09</span><h2>Build to produce, produce to monetize</h2></div>
+      <p>Aturan pemilik untuk seluruh pembangunan SMW. Modul yang tidak punya kebutuhan produksi nyata ditolak oleh mesin, bukan oleh niat baik.</p></div>
+    <div class="gate-list">
+      <div class="gl"><div class="hd"><b>Aturan modul</b></div><ul><li>Tiap modul wajib punya <span class="mono">need</span>, <span class="mono">evidence</span> (kejadian nyata), dan <span class="mono">kpi</span> yang diperbaikinya</li><li><span class="mono">senator validate</span> menolak modul yang kosong</li><li>Modul tanpa insiden pemicu tidak dibangun</li></ul></div>
+      <div class="gl"><div class="hd"><b>Aturan prioritas</b></div><ul><li>Produksi dan publikasi selalu menang atas pembangunan sistem</li><li>Video yang sudah siap tayang tidak ditahan menunggu infrastruktur</li><li>Dua gerbang manusia tetap di tangan Nanda: QG0 dan QG5</li></ul></div>
+      <div class="gl"><div class="hd"><b>Aturan data</b></div><ul><li>Data belum ada ditulis <span class="mono">n/a</span>, tidak ditebak</li><li>Asumsi (kurs, RPM, kredit per paket) ditandai ASUMSI sampai diganti data asli</li><li>Setiap angka dashboard membawa sumber dan tanggal</li></ul></div>
+    </div>
+    <div><span class="lbl">Enam ukuran evaluasi (bukan jumlah video)</span>
+      <table style="margin-top:8px"><thead><tr><th>Ukuran</th><th>Cara dihitung</th><th>Sumber data</th><th>Perintah</th></tr></thead><tbody>
+        <tr><td><b>Waktu riset → publikasi</b></td><td>hari dari <span class="mono">research_start</span> ke <span class="mono">published</span></td><td>registry/projects</td><td class="mono">senator metrics</td></tr>
+        <tr><td><b>Biaya produksi per konten</b></td><td>kredit × biaya per kredit + bagian langganan</td><td>budget.json, registry</td><td class="mono">senator metrics</td></tr>
+        <tr><td><b>Penggunaan kredit AI</b></td><td>kredit terpakai per proyek dan sisa vs tanggal reset</td><td>ElevenLabs usage</td><td class="mono">senator status</td></tr>
+        <tr><td><b>Kelulusan gerbang</b></td><td>gerbang lolos / gerbang yang sudah dijalankan</td><td>registry/projects</td><td class="mono">senator metrics</td></tr>
+        <tr><td><b>Performa publikasi</b></td><td>CTR, retensi 30 dtk, AVD% pada 48 jam / 7 / 28 hari</td><td>vidIQ, Studio (F2)</td><td class="mono">dashboard F2</td></tr>
+        <tr><td><b>Pendapatan dan ROI</b></td><td>pendapatan tercatat dikurangi biaya produksi dan langganan</td><td>registry/revenue.json</td><td class="mono">senator metrics</td></tr>
+      </tbody></table></div>
+  </section>
+
   <section class="sheet" id="roadmap">
-    <div class="sh-head"><div><span class="no">SHEET 09</span><h2>Implementasi bertahap</h2></div>
-      <p>Setiap fase selesai hanya kalau ujinya lolos. Tidak ada fase yang menghentikan jadwal upload World History.</p></div>
+    <div class="sh-head"><div><span class="no">SHEET 10</span><h2>Implementasi bertahap</h2></div>
+      <p>Setiap fase selesai hanya kalau ujinya lolos dan terhubung ke kebutuhan produksi nyata. Tidak ada fase yang menghentikan jadwal upload World History.</p></div>
     <div class="phases" id="phases"></div>
     <div class="callout"><span class="lbl">Teguran sebelum mulai</span><p>Membangun infrastruktur bisa jadi cara halus menunda upload. Part 2 v3 sudah siap tayang sekarang; tayangkan sambil F0 dibangun. Target YPP akhir Desember tetap jalan dengan atau tanpa sistem ini.</p></div>
-    <div><span class="lbl">Keputusan yang perlu kamu setujui</span>
+    <div><span class="lbl">Keputusan (disetujui Nanda, 25 Nov 2026)</span>
       <ol class="decisions" style="margin-top:10px">
         <li><span><b>Nama sistem</b>: Senator Media Works (SMW), atau nama lain.</span></li>
         <li><span><b>Topologi HQ + Studio</b>: HQ di <span class="mono">ai-senator-workspace</span>, studio tetap di repo masing-masing.</span></li>
@@ -337,7 +357,7 @@ const MX={
  "D11 Archive":["RW","R","","","","","RW","W","R",""]
 };
 const PHASES=[
- ["F0","Fondasi",["Struktur folder HQ","JSON Schema registry","studio.json untuk WH & Sang Kronika","CLI senator: project new, validate","Agent: Showrunner, Planner, Archivist"],"senator validate lolos di 2 studio; Bagration Part 3 terdaftar"],
+ ["F0","Fondasi · BERJALAN",["Registry: property, proyek, anggaran, modul","studio.json untuk WH & Sang Kronika","CLI senator: validate, status, metrics, finance, new","Agent: Showrunner, Planner, Archivist (+ tes otomatis)"],"senator validate lolos di 2 studio; Bagration Part 3 terdaftar"],
  ["F1","Jalur produksi WH",["Format-Norm WH-LF-01","SOP-00 sampai SOP-09","Agent D1, D2, D4, D5, D6, D7","Gate checker QG1–QG4"],"Bagration Part 3 lewat semua gerbang dengan laporan otomatis"],
  ["F2","Distribusi & analytics",["Distribution Manager, Performance Analyst","Snapshot metrik terjadwal","Dashboard v1 dengan sumber per angka","Laporan mingguan"],"Dashboard menampilkan data nyata dengan sumber dan tanggal"],
  ["F3","Multi-brand (MCN)",["Sang Kronika masuk standar","Slate dan anggaran lintas brand","Jalur turunan short-form"],"2 brand di satu slate tanpa bentrok kredit"],
