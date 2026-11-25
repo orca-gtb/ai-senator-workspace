@@ -9,3 +9,7 @@ Markas sesi cloud Claude Code untuk tim AI Senator.
 
 ## Cara pakai
 Mulai sesi baru di claude.ai/code dan pilih repo ini. Playwright MCP langsung aktif.
+
+## Senator Media Works (rancangan)
+- `docs/architecture/MASTER-ARCHITECTURE.md`: master architecture v0.1 (draft, menunggu persetujuan).
+- `docs/architecture/master-architecture.html`: versi visual (diterbitkan sebagai Artifact).
