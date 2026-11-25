@@ -1,9 +1,29 @@
 {
- "plan": {"name": "ElevenLabs Creator", "usd_month": 22, "credits_month": null, "credits_note": "ISI SAAT MEMBELI (cek halaman harga ElevenLabs); sampai terisi, biaya per kredit tidak dihitung"},
- "fx_idr_per_usd": 16500, "fx_note": "ASUMSI perencanaan, ganti dengan kurs aktual",
+ "plan": {
+  "name": "ElevenLabs Creator",
+  "usd_month": 22,
+  "credits_month": 121617,
+  "credits_note": "Dari ElevenLabs account usage 25 Nov 2026 (tier creator, character_limit 121.617). Biaya per kredit dihitung dari harga normal $22 (bulan pertama diskon, tidak dipakai)."
+ },
+ "fx_idr_per_usd": 16500,
+ "fx_note": "ASUMSI perencanaan, ganti dengan kurs aktual",
  "target_surplus_idr_month": 500000,
- "credits_now": {"date": "2026-11-25", "limit": 17169, "used": 16861, "reset_unix": 1797940367, "source": "ElevenLabs account usage"},
- "allocation": {"wh": 1.0, "sk": 0.0, "rule": "World History dulu; Sang Kronika hanya dari sisa"},
- "rpm_scenarios_usd": [2, 4, 6],
+ "credits_now": {
+  "date": "2026-11-25",
+  "limit": 121617,
+  "used": 818,
+  "reset_unix": 1798197122,
+  "source": "ElevenLabs account usage (tier creator)"
+ },
+ "allocation": {
+  "wh": 1.0,
+  "sk": 0.0,
+  "rule": "World History dulu; Sang Kronika hanya dari sisa"
+ },
+ "rpm_scenarios_usd": [
+  2,
+  4,
+  6
+ ],
  "rpm_note": "ASUMSI untuk simulasi, BUKAN data. Ganti dengan RPM asli dari YouTube Studio setelah YPP aktif. Penonton Indonesia umumnya RPM jauh lebih rendah dari US/UK."
 }

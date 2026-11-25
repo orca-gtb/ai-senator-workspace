@@ -44,7 +44,7 @@ class MetricsTests(unittest.TestCase):
         self.assertIsNone(rows["bagration-p3"]["lead_days"])
 
     def test_credit_cost_is_na_until_plan_credits_known(self):
-        R = S.registry(); self.assertIsNone(S.credit_cost_idr(R))
+        R = S.registry(); R["budget"]["plan"]["credits_month"] = None; self.assertIsNone(S.credit_cost_idr(R))
         R["budget"]["plan"]["credits_month"] = 100000
         self.assertAlmostEqual(S.credit_cost_idr(R), 22 * 16500 / 100000)
 

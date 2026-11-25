@@ -1,7 +1,7 @@
 {
  "id": "bagration-p1",
  "property": "wh",
- "title": "Operation Bagration, Part 1: The Trap",
+ "title": "How 300,000 Soldiers Vanished in 14 Days (Operation Bagration)",
  "series": "bagration",
  "part": 1,
  "stage": "S8",
@@ -15,11 +15,11 @@
  },
  "dates": {
   "research_start": null,
-  "published": null
+  "published": "2026-11-25"
  },
  "duration_s": 590,
  "credits_used": null,
  "revenue_idr": 0,
  "cost_idr": null,
- "notes": "Sudah tayang (konfirmasi Nanda 25 Nov 2026). Tanggal publish belum disebut. QG1-QG3 belum dijalankan mesin (F1)."
+ "notes": "Tayang 25 Nov 2026 03:09 UTC (10:09 WIB; Nanda ingat 10:07), sumber vidIQ. 9:50. Judul tayang beda dari metadata awal (tanpa 'Part 1'). Snapshot 25 Nov 23:00 UTC: 54 views, 1 like, 0 komentar, VPH 2,8."
 }
