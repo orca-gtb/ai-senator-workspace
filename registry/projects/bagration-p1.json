@@ -4,14 +4,14 @@
  "title": "Operation Bagration, Part 1: The Trap",
  "series": "bagration",
  "part": 1,
- "stage": "S7",
+ "stage": "S8",
  "gates": {
   "QG0": "pass",
   "QG1": "pending",
   "QG2": "pending",
   "QG3": "pending",
   "QG4": "pass",
-  "QG5": "pending"
+  "QG5": "pass"
  },
  "dates": {
   "research_start": null,
@@ -21,5 +21,5 @@
  "credits_used": null,
  "revenue_idr": 0,
  "cost_idr": null,
- "notes": "Master v3 9:50, metadata dan cover siap; status upload belum tercatat. Gerbang QG1-QG3 belum dijalankan otomatis (F1)."
+ "notes": "Sudah tayang (konfirmasi Nanda 25 Nov 2026). Tanggal publish belum disebut. QG1-QG3 belum dijalankan mesin (F1)."
 }

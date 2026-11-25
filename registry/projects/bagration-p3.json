@@ -4,17 +4,17 @@
  "title": "Operation Bagration, Part 3: The Cauldron (Minsk)",
  "series": "bagration",
  "part": 3,
- "stage": "S0",
+ "stage": "S1",
  "gates": {
-  "QG0": "pending"
+  "QG0": "pass"
  },
  "dates": {
-  "research_start": null,
+  "research_start": "2026-11-25",
   "published": null
  },
  "duration_s": null,
  "credits_used": 0,
  "revenue_idr": 0,
  "cost_idr": null,
- "notes": "Proyek uji nyata F0-F1. Menunggu QG0 dari Nanda. VO tertahan sampai kredit reset (~22 Des) atau paket Creator aktif."
+ "notes": "QG0 pass oleh Nanda 25 Nov 2026 (greenlight). Riset dimulai. VO tertahan sampai kredit reset (~22 Des) atau paket Creator aktif."
 }
