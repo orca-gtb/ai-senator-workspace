@@ -9,9 +9,9 @@
  "fx_note": "ASUMSI perencanaan, ganti dengan kurs aktual",
  "target_surplus_idr_month": 500000,
  "credits_now": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "limit": 121617,
-  "used": 818,
+  "used": 2926,
   "reset_unix": 1798197122,
   "source": "ElevenLabs account usage (tier creator)"
  },

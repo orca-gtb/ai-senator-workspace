@@ -80,6 +80,14 @@
    "need": "SFX perang tipis dan tidak sinkron dengan kejadian di layar (MG, desing peluru, Urra, rantai tank, Katyusha, artileri)",
    "evidence": "feedback Nanda atas Short 1, 26 Nov 2026",
    "kpi": "tingkat kelulusan gerbang"
+  },
+  {
+   "id": "ww2-silhouette-radio-pack",
+   "phase": "F1",
+   "status": "built",
+   "need": "Siluet tank di Short 1 bukan tank Soviet dan unit/suara perang belum konsisten; butuh aset siluet 3 faksi + suara radio asli (EN/DE/RU) yang bisa dipakai ulang di semua Short Bagration",
+   "evidence": "feedback Nanda atas Short 1 (26 Nov 2026) + brief Angie 'WWII Silhouette & Radio Voice Pack'",
+   "kpi": "biaya produksi per konten (aset dipakai ulang tanpa kredit baru) dan tingkat kelulusan gerbang"
   }
  ]
 }
