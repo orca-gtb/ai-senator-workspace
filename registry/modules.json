@@ -1,13 +1,85 @@
 {
  "_rule": "BUILD TO PRODUCE, PRODUCE TO MONETIZE: modul tanpa need + evidence + kpi ditolak oleh `senator validate`.",
  "modules": [
-  {"id": "registry", "phase": "F0", "status": "built", "need": "Status proyek, kredit, dan biaya tersebar di percakapan; kredit habis (308/17.169) terlambat disadari", "evidence": "insiden 25 Nov 2026: Tier B Part 2 batal karena kredit", "kpi": "biaya produksi per konten; kredit terpakai"},
-  {"id": "cli-validate", "phase": "F0", "status": "built", "need": "Data registry bisa rusak/tidak lengkap tanpa ketahuan", "evidence": "metadata Part 1 harus dihitung ulang manual saat durasi berubah", "kpi": "tingkat kelulusan gerbang"},
-  {"id": "cli-metrics", "phase": "F0", "status": "built", "need": "Belum ada ukuran waktu riset-ke-publikasi, biaya per konten, ROI", "evidence": "permintaan Nanda 25 Nov 2026 (bagian C)", "kpi": "waktu riset-ke-publikasi; ROI"},
-  {"id": "cli-finance", "phase": "F0", "status": "built", "need": "Target surplus Rp500rb/bulan setelah langganan ElevenLabs belum punya hitungan jembatan", "evidence": "permintaan Nanda 25 Nov 2026 (bagian B)", "kpi": "surplus bulanan"},
-  {"id": "agent-showrunner", "phase": "F0", "status": "built", "need": "Tiap sesi harus mengulang konteks dan lupa aturan skill", "evidence": "hook/storytelling 'berubah-ubah' (Nanda 25 Nov 2026)", "kpi": "tingkat kelulusan gerbang"},
-  {"id": "agent-planner", "phase": "F0", "status": "built", "need": "Kredit dan kapasitas harian tidak dijadwalkan; Part 3 tertahan reset 22 Des", "evidence": "Part 2 Tier B gagal; Part 3 belum bisa dibuat VO", "kpi": "kredit terpakai; waktu riset-ke-publikasi"},
-  {"id": "agent-archivist", "phase": "F0", "status": "built", "need": "Pelajaran dari insiden (VO ngasal, still AI kaku, kredit) tidak tersimpan sehingga terulang", "evidence": "VO 'Next: Minsk.' bocor di Part 2 v1", "kpi": "tingkat kelulusan gerbang"},
-  {"id": "gate-qg3-vo-check", "phase": "F1", "status": "planned", "need": "Kalimat produksi ikut terbaca di VO", "evidence": "Part 2 v1: 'Next: Minsk.' dan 'Bobruisk. June, nineteen forty-four.' terbaca", "kpi": "tingkat kelulusan gerbang"}
+  {
+   "id": "registry",
+   "phase": "F0",
+   "status": "built",
+   "need": "Status proyek, kredit, dan biaya tersebar di percakapan; kredit habis (308/17.169) terlambat disadari",
+   "evidence": "insiden 25 Nov 2026: Tier B Part 2 batal karena kredit",
+   "kpi": "biaya produksi per konten; kredit terpakai"
+  },
+  {
+   "id": "cli-validate",
+   "phase": "F0",
+   "status": "built",
+   "need": "Data registry bisa rusak/tidak lengkap tanpa ketahuan",
+   "evidence": "metadata Part 1 harus dihitung ulang manual saat durasi berubah",
+   "kpi": "tingkat kelulusan gerbang"
+  },
+  {
+   "id": "cli-metrics",
+   "phase": "F0",
+   "status": "built",
+   "need": "Belum ada ukuran waktu riset-ke-publikasi, biaya per konten, ROI",
+   "evidence": "permintaan Nanda 25 Nov 2026 (bagian C)",
+   "kpi": "waktu riset-ke-publikasi; ROI"
+  },
+  {
+   "id": "cli-finance",
+   "phase": "F0",
+   "status": "built",
+   "need": "Target surplus Rp500rb/bulan setelah langganan ElevenLabs belum punya hitungan jembatan",
+   "evidence": "permintaan Nanda 25 Nov 2026 (bagian B)",
+   "kpi": "surplus bulanan"
+  },
+  {
+   "id": "agent-showrunner",
+   "phase": "F0",
+   "status": "built",
+   "need": "Tiap sesi harus mengulang konteks dan lupa aturan skill",
+   "evidence": "hook/storytelling 'berubah-ubah' (Nanda 25 Nov 2026)",
+   "kpi": "tingkat kelulusan gerbang"
+  },
+  {
+   "id": "agent-planner",
+   "phase": "F0",
+   "status": "built",
+   "need": "Kredit dan kapasitas harian tidak dijadwalkan; Part 3 tertahan reset 22 Des",
+   "evidence": "Part 2 Tier B gagal; Part 3 belum bisa dibuat VO",
+   "kpi": "kredit terpakai; waktu riset-ke-publikasi"
+  },
+  {
+   "id": "agent-archivist",
+   "phase": "F0",
+   "status": "built",
+   "need": "Pelajaran dari insiden (VO ngasal, still AI kaku, kredit) tidak tersimpan sehingga terulang",
+   "evidence": "VO 'Next: Minsk.' bocor di Part 2 v1",
+   "kpi": "tingkat kelulusan gerbang"
+  },
+  {
+   "id": "gate-qg3-vo-check",
+   "phase": "F1",
+   "status": "planned",
+   "need": "Kalimat produksi ikut terbaca di VO",
+   "evidence": "Part 2 v1: 'Next: Minsk.' dan 'Bobruisk. June, nineteen forty-four.' terbaca",
+   "kpi": "tingkat kelulusan gerbang"
+  },
+  {
+   "id": "shorts-engine",
+   "phase": "F1",
+   "status": "built",
+   "need": "Long-form 8+ menit sulit menarik penonton; Nanda memutuskan Shorts dulu dan memakai VO yang sudah ada",
+   "evidence": "arahan Nanda 26 Nov 2026; Shorts WH: satu Short = 62% views Shorts",
+   "kpi": "waktu riset-ke-publikasi; biaya produksi per konten"
+  },
+  {
+   "id": "sfx-onset-slices",
+   "phase": "F1",
+   "status": "built",
+   "need": "SFX perang tipis dan tidak sinkron dengan kejadian di layar (MG, desing peluru, Urra, rantai tank, Katyusha, artileri)",
+   "evidence": "feedback Nanda atas Short 1, 26 Nov 2026",
+   "kpi": "tingkat kelulusan gerbang"
+  }
  ]
 }
