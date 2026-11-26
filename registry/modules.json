@@ -88,6 +88,14 @@
    "need": "Siluet tank di Short 1 bukan tank Soviet dan unit/suara perang belum konsisten; butuh aset siluet 3 faksi + suara radio asli (EN/DE/RU) yang bisa dipakai ulang di semua Short Bagration",
    "evidence": "feedback Nanda atas Short 1 (26 Nov 2026) + brief Angie 'WWII Silhouette & Radio Voice Pack'",
    "kpi": "biaya produksi per konten (aset dipakai ulang tanpa kredit baru) dan tingkat kelulusan gerbang"
+  },
+  {
+   "id": "ww2-v2-visual-standard",
+   "phase": "F1",
+   "status": "built (tahap 1, menunggu persetujuan visual)",
+   "need": "Demo pertama (3 jalur horizontal, figur stik) tidak diterima sebagai standar visual produksi; Short dan Part Bagration butuh aset unit/kendaraan yang layak dan bisa dipakai ulang",
+   "evidence": "evaluasi Angie atas video 36805.mp4 (26 Nov 2026)",
+   "kpi": "tingkat kelulusan gerbang (QG visual) dan biaya produksi per konten"
   }
  ]
 }
