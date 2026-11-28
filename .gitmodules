@@ -1,0 +1,4 @@
+[submodule "infra/odysseus"]
+	path = infra/odysseus
+	url = https://github.com/odysseus-dev/odysseus
+	branch = main

@@ -1,0 +1,4 @@
+# pengaman: rahasia dan data Odysseus tidak boleh masuk Git dari repo ini
+infra/odysseus/.env
+infra/odysseus/data/
+infra/odysseus/logs/
